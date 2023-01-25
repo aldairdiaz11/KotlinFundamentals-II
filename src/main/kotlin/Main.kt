@@ -14,6 +14,26 @@ fun main() {
 
     val fruits = arrayOf(Fruit("Apple", 2.5), Fruit("Orange", 3.0))
     println(fruits[1].name)
+
+    // Lists
+    val months = listOf("January", "February", "March")
+    val anyTypes = listOf(1, 2 ,3, true, false, "String", 'c')
+
+    println(anyTypes.size)
+    println(months[0])
+
+    for(month in months){
+        println(month)
+    }
+
+    val additionalMonths = months.toMutableList()
+    val newMonths = arrayOf("April", "May", "June")
+    additionalMonths.addAll(newMonths)
+    additionalMonths.add("July")
+
+    val newDays = mutableListOf<String>("Mo", "Tu", "Th")
+    newDays[2] = "Su"
+    newDays.removeAt(0)
 }
 
 data class Fruit(val name: String, val price:Double)
