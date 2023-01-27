@@ -57,6 +57,16 @@ fun main() {
 
     println(newDaysOfTheWeek.toSortedMap())
 
+    // Exercise Array lists
+    val fiveNumbers = arrayListOf<Double>(7.4, 9.3, 9.45, 7.8, 9.1)
+
+    var total = 0.0
+    for (i in fiveNumbers){
+        total += i
+    }
+    val average: Double = total / fiveNumbers.size
+    println(average)
+    /////////////////
 }
 
 data class Fruit(val name: String, val price:Double)
