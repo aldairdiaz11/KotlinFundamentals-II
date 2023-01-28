@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="657acd17-12bf-4c33-9802-2cccfb2cd1e6" name="Changes" comment="&quot;Add sets and maps&quot;">
+    <list default="true" id="657acd17-12bf-4c33-9802-2cccfb2cd1e6" name="Changes" comment="&quot;Array list exercise&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -50,7 +50,8 @@
       <workItem from="1674611116136" duration="1110000" />
       <workItem from="1674685328656" duration="288000" />
       <workItem from="1674687474618" duration="1120000" />
-      <workItem from="1674782962128" duration="1528000" />
+      <workItem from="1674782962128" duration="1598000" />
+      <workItem from="1674870734758" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Initial commit&quot;">
       <created>1674530694230</created>
@@ -73,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674689364380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;Array list exercise&quot;">
+      <created>1674785627200</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674785627200</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +102,7 @@
     <MESSAGE value="&quot;Initial commit&quot;" />
     <MESSAGE value="&quot;Add list&quot;" />
     <MESSAGE value="&quot;Add sets and maps&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Add sets and maps&quot;" />
+    <MESSAGE value="&quot;Array list exercise&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Array list exercise&quot;" />
   </component>
 </project>

@@ -67,6 +67,21 @@ fun main() {
     val average: Double = total / fiveNumbers.size
     println(average)
     /////////////////
+
+    // Lambda expression: addition of two numbers
+
+    val sum: (Int, Int) -> Int = {a: Int, b: Int -> a + b}
+    println(sum(10, 5))
+
+    // Visibility modifier
+    //Public / private / internal / open / protected
+
+
+
 }
 
 data class Fruit(val name: String, val price:Double)
+
+private class Example {
+    private val x = 1
+}
